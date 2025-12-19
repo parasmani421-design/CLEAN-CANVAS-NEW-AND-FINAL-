@@ -1,0 +1,40 @@
+body {
+font-family: Arial, sans-serif;
+background: #e8f5e9;
+margin: 0;
+text-align: center;
+}
+header {
+background: #2e7d32;
+color: white;
+padding: 15px;
+}
+.card {
+background: white;
+margin: 20px auto;
+padding: 20px;
+width: 90%;
+max-width: 400px;
+border-radius: 10px;
+box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+button {
+background: #388e3c;
+color: white;
+border: none;
+padding: 10px;
+border-radius: 6px;
+cursor: pointer;
+}
+select {
+padding: 5px;
+margin-top: 5px;
+}
+footer {
+background: #1b5e20;
+color: white;
+padding: 8px;
+position: fixed;
+bottom: 0;
+width: 100%;
+}
