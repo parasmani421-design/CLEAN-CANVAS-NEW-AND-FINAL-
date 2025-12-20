@@ -1,46 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>Clean Canvas</title>
-<link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-
-<header>
-  <h1>■ Clean Canvas</h1>
-  <p>AI-enabled Real-Time Waste Reporting System</p>
-</header>
-
-<section class="card">
-  <h2>■ Citizen Waste Report</h2>
-
-  <input type="file" accept="image/*"><br><br>
-
-  <button onclick="getLocation()">■ Capture Location</button>
-  <p id="location">Location not captured</p>
-
-  <label>■ AI Severity Detection</label><br>
-  <select id="severity">
-    <option>Low</option>
-    <option>Medium</option>
-    <option>High</option>
-  </select><br><br>
-
-  <button onclick="submitReport()">Submit Report</button>
-</section>
-
-<section class="card">
+<section class="card" id="authority" style="display:none;">
   <h2>■■ Authority Dashboard</h2>
-  <p id="status">No reports received</p>
+
+  <p id="authPhoto">■ Photo:</p>
+  <p id="authLocation">■ Location:</p>
+  <p id="authSeverity">■ Severity:</p>
+
   <button onclick="resolve()">■ Mark as Cleaned</button>
 </section>
-
-<footer>
-  <p>© 2025 Clean Canvas | Mini Project</p>
-</footer>
-
-<script src="script.js"></script>
-</body>
-</html>
